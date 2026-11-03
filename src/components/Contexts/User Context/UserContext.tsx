@@ -1,5 +1,5 @@
 
-import { createContext, useContext, useEffect, useState, type Dispatch } from 'react';
+import { createContext, useEffect, useState, type Dispatch } from 'react';
 import type { userProfileType } from '../../../types/user.type';
 import { getMyProfile } from '../../../services/profile.service';
 import { useAuth } from '../Token Context/token.context';
